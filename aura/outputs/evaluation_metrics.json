@@ -1,0 +1,82 @@
+{
+  "total_score": 72.6061,
+  "overall_recall": 0.6077,
+  "worst_group_recall": 0.5867,
+  "worst_group_name": "sex:F",
+  "fairness_gap": 0.0497,
+  "fairness_utility": 0.9503,
+  "brier_score": 0.0374,
+  "calibration_utility": 0.9626,
+  "points_breakdown": {
+    "recall_points": 24.3077,
+    "worst_group_recall_points": 14.6667,
+    "fairness_utility_points": 19.0061,
+    "calibration_utility_points": 9.6257,
+    "reproducibility_points": 5.0
+  },
+  "k_selected": 79,
+  "n_total": 395,
+  "total_positives": 130,
+  "selected_positives": 79,
+  "overall_precision": 1.0,
+  "attribute_gaps": {
+    "sex": 0.049696969696969684,
+    "school": 0.04528891202498697
+  },
+  "eligible_group_recalls": {
+    "sex:F": 0.5867,
+    "sex:M": 0.6364,
+    "school:GP": 0.6018,
+    "school:MS": 0.6471
+  },
+  "group_stats": [
+    {
+      "attribute": "sex",
+      "group": "F",
+      "total_rows": 208,
+      "positive_rows": 75,
+      "selected_rows": 44,
+      "selected_positive_rows": 44,
+      "is_eligible": true,
+      "recall": 0.5866666666666667,
+      "precision": 1.0,
+      "selection_rate": 0.21153846153846154
+    },
+    {
+      "attribute": "sex",
+      "group": "M",
+      "total_rows": 187,
+      "positive_rows": 55,
+      "selected_rows": 35,
+      "selected_positive_rows": 35,
+      "is_eligible": true,
+      "recall": 0.6363636363636364,
+      "precision": 1.0,
+      "selection_rate": 0.18716577540106952
+    },
+    {
+      "attribute": "school",
+      "group": "GP",
+      "total_rows": 349,
+      "positive_rows": 113,
+      "selected_rows": 68,
+      "selected_positive_rows": 68,
+      "is_eligible": true,
+      "recall": 0.6017699115044248,
+      "precision": 1.0,
+      "selection_rate": 0.19484240687679083
+    },
+    {
+      "attribute": "school",
+      "group": "MS",
+      "total_rows": 46,
+      "positive_rows": 17,
+      "selected_rows": 11,
+      "selected_positive_rows": 11,
+      "is_eligible": true,
+      "recall": 0.6470588235294118,
+      "precision": 1.0,
+      "selection_rate": 0.2391304347826087
+    }
+  ]
+}
